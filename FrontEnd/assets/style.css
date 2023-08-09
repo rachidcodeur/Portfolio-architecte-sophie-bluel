@@ -185,4 +185,21 @@ footer nav ul {
 	justify-content: flex-end;
 	margin: 2em
 }
+.filter{
+	display: flex;
+	justify-content: center;
+	margin: 60px 0px;
+	gap: 15px;
+}
 
+.filter div{
+	font-size: 1.2em;
+	padding: 10px;
+	border: solid 1px #1D6154;
+	border-radius: 30px;
+}
+
+.filter div:hover, .filter div:active{
+	background-color: #1D6154;
+	color: white;
+}
